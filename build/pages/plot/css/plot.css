@@ -1,0 +1,51 @@
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: auto;
+
+  background-color: rgba(240, 216, 131, 0.2);
+}
+
+.scroll_panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  font-family: sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+
+  margin-top: 2em;
+}
+
+
+
+.scroll_panel ul {
+  margin: 0;
+  padding: 0;
+
+}
+
+.scroll_panel ul li {
+  display: inline-block;
+  list-style: none;
+  flex-grow: 1;
+  margin: 2em;
+
+}
+
+.scroll_panel ul li h4 {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+
+}
