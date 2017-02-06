@@ -8,7 +8,7 @@
   justify-content: center;
 
   width: 100%;
-  height: auto;
+  height: 100%;
 
   background-color: rgba(240, 216, 131, 0.2);
 }
@@ -35,17 +35,34 @@
 }
 
 .scroll_panel ul li {
-  display: inline-block;
+  display: inline-flex;
   list-style: none;
   flex-grow: 1;
   margin: 2em;
+  width: 10%;
 
 }
 
-.scroll_panel ul li h4 {
+/*.scroll_panel ul li h4 {
   display: flex;
   width: 100%;
   text-align: center;
   justify-content: center;
 
+}*/
+
+.text-wrap {
+  margin: 0;
+  position: relative;
+  width: 100%;
+}
+.text-wrap svg {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  font: bold 100px sans-serif;
+  text-transform: uppercase;
+}
+.text-wrap svg .img-layer {
+  fill: url(#p-img);
 }
